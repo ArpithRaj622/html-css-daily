@@ -243,6 +243,7 @@
   margin-inline: calc(var(--spacing) * 10);
   margin-block: calc(var(--spacing) * 10);
   display: flex;
+  width: 100%;
   max-width: var(--container-sm);
   flex-direction: column;
   border-radius: var(--radius-2xl);
