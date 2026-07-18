@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Roboto Mono", monospace;
+}
+
+
+.card-container {
+    @apply grid grid-cols-1 gap-10 justify-items-center py-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto lg:h-screen items-center;
+}
+
+.card {
+    @apply bg-white px-8 py-4 flex flex-col justify-between rounded-2xl shadow-xl h-96 w-full max-w-xs;
+}
+
+.plan_price {
+    @apply text-center font-bold;
+}
+
+.features {
+    @apply text-sm flex flex-col gap-2;
+}
+
+.btn {
+    @apply w-full p-1 font-bold bg-green-500 text-white rounded-md cursor-pointer;
+}
+
+
+#proCard {
+    @apply shadow-2xl shadow-amber-200;
+}
+

@@ -1,0 +1,130 @@
+<!-- Day-02-Responsive-Pricing-Cards -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap" rel="stylesheet">
+    <title>Responsive Pricing Cards</title>
+    <!-- <style>
+        *{
+            border: 1px solid red;
+        }
+    </style> -->
+</head>
+<body class="bg-slate-100">
+    <div class="card-container">
+        <!-- card 1 -->
+        <div class="card">
+        <!-- plan name  & price-->
+            <div class="plan_price">
+                <p class="text-xl">Basic</p>
+                <p class="font-bold text-2xl">&#8377;299/month</p>
+            </div>
+
+            <!-- feature list -->
+            <div>
+                <ul class="features">
+                    <li>
+                        <i class="fa-solid fa-folder-closed"></i> 5 Projects
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-user-group"></i> Community Support
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-database"></i> 1 GB Storage
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chart-column"></i> Basic Analytics
+                    </li>
+                </ul>
+            </div>
+
+            <!-- button -->
+            <div>
+                <button type="button" class="btn">Get Started</button>
+            </div>
+        </div>
+
+        <!-- card 2 -->
+        <div id="proCard" class="card">
+        <!-- plan name  & price-->
+            <div class="plan_price">
+                <p class="text-xl">Pro</p>
+                <p class="font-bold text-2xl">&#8377;499/month</p>
+            </div>
+
+            <!-- features -->
+            <div>
+                <ul class="features">
+                    <li>
+                        <i class="fa-solid fa-folder-closed"></i> 100 Projects
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-user-group"></i> Priority Support
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-database"></i> 100 GB Storage
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chart-column"></i> Advanced Analytics
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-globe"></i> Custom Domain
+                    </li>
+                    <li class="text-amber-500 font-bold">
+                        <i class="fa-solid fa-star"></i> Most Popular
+                    </li>
+                </ul>
+            </div>
+
+            <!-- button -->
+            <div class="flex flex-col gap-2">
+                <button type="button" class="btn">Start Free Trial</button>
+            </div>
+        </div>
+        
+        <!-- card 3 -->
+        <div class="card">
+        <!-- plan name  & price-->
+            <div class="plan_price">
+                <p class="text-xl">Enterprise</p>
+                <p class="text-2xl">Custom Pricing</p>
+            </div>
+
+            <!-- feature list -->
+            <div>
+                <ul class="features">
+                    <li>
+                        <i class="fa-solid fa-folder-closed"></i> Unlimited Projects
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-headset"></i> Dedicated Support
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-database"></i> Unlimited Storage
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-lock"></i> Advanced Security
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-handshake"></i> Team Management
+                    </li>
+                </ul>
+            </div>
+
+            <!-- button -->
+            <div>
+                <button type="button" class="btn">
+                    Contact Sales 
+                    <i class="fa-solid fa-phone"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

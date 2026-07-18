@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "day1": "npx @tailwindcss/cli -i ./Day-01-Profile-Card/src/input.css -o ./Day-01-Profile-Card/src/output.css --watch"
+    "day1": "npx @tailwindcss/cli -i ./Day-01-Profile-Card/src/input.css -o ./Day-01-Profile-Card/src/output.css --watch",
+    "day2": "npx @tailwindcss/cli -i ./Day-02-Responsive-Pricing-Cards/src/input.css -o ./Day-02-Responsive-Pricing-Cards/src/output.css --watch"
   },
   "repository": {
     "type": "git",
