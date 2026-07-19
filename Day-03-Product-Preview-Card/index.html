@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <title>Product Preview Card</title>
+</head>
+<body class="bg-slate-100">
+    <section class="card-container">
+        <div class="product-card">
+            <div class="sale"><i class="fa-solid fa-percent"></i> On Sale</div>
+            <!-- card section 1 - product image -->
+            <div class="card-section-1">
+                <img src="./images/keyboard.png" alt="keyboard image" class="w-xs">
+            </div>
+
+            <!-- card section 2 -->
+            <div class="card-section-2">
+                <!-- Product name & description -->
+                <div class="product-description">
+                    <!-- category -->
+                    <p class="text-xs text-slate-500">Mechanical Keyboard</p>
+                    <!-- name -->
+                    <p class="text-2xl text-purple-700 font-extrabold">NovaKeys Phantom</p>
+                    <!-- description -->
+                    <p class="text-sm text-slate-500">Experience smooth and responsive typing with the NovaKeys Phantom 75. Featuring hot-swappable switches, customizable RGB lighting, and a compact 75% layout, it's built for gamers, programmers, and creators alike.</p>
+                </div>
+
+                <!-- pricing -->
+                <div>
+                    <p class="line-through text-xl text-slate-500">₹5,499</p>
+                    <p class="text-xl font-bold">₹7,499</p>
+                </div>
+
+                <!-- button -->
+                <div>
+                    <button type="button" aria-label="add to cart button" class="btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
