@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Poppins", sans-serif;
+}
+
+.testimonial-cards-container {
+    @apply w-full max-w-7xl min-h-screen mx-auto my-10 p-5 grid md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center content-start;
+}
+
+.testimonial-card {
+    @apply flex flex-col gap-3 w-full max-w-sm rounded-2xl bg-white p-4 shadow-2xl transition-transform duration-300 hover:-translate-y-2;
+}
+.card-section-1 {
+    @apply flex justify-between py-2 px-1;
+}
+
+.user-img {
+    @apply w-28 h-28 rounded-full bg-[url("../images/avatar.jpg")] bg-cover bg-center shadow-lg;
+}
+
+.user-details {
+    @apply w-[60%] flex flex-col gap-4 justify-center font-bold;
+}
+
+.user-details > p {
+    @apply text-lg
+}
+
+.card-section-2 {
+    @apply py-2 px-1 flex flex-col gap-2;
+}
+
+.review {
+    @apply text-slate-600 text-sm;
+}
+
+.ratings{
+    @apply text-amber-500
+}
